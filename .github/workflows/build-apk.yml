@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'PixelMusic_v0.41.230_global_shuffle.zip'
+      - 'PixelMusic_v0.41.30_global_shuffle.zip'
       - '.github/workflows/build-apk.yml'
 
 jobs:
