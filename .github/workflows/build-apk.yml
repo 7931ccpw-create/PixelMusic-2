@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'PixelMusic_v0.41.37.zip'
+      - 'PixelMusic_v0.41.38.zip'
       - '.github/workflows/build-apk.yml'
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -q PixelMusic_v0.41.37.zip -d project
+        run: unzip -q PixelMusic_v0.41.38.zip -d project
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
